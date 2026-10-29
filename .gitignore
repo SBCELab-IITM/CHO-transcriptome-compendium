@@ -1,0 +1,15 @@
+# outputs and large inputs
+results/
+data/*.csv
+data/*.txt
+data/*.rds
+data/*.pkl
+data/*.bam
+data/*.bw
+*.pdf
+.Rhistory
+.RData
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+renv/library/

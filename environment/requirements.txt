@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+seaborn
+plotly
+openpyxl
+pillow
+pydeseq2==0.5.4
+jupyter
