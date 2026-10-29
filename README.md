@@ -1,6 +1,6 @@
 # CHO Transcriptome Compendium
 
-Code for the CHO transcriptome compendium paper (Lakshmanan lab, SBCE, IIT Madras).
+Code for the CHO transcriptome compendium paper (SBCE Lab, IIT Madras).
 
 Paper: TBD | Data: TBD (SRA BioProjects / Zenodo) | Licence: TBD
 
@@ -45,4 +45,4 @@ Paper: TBD | Data: TBD (SRA BioProjects / Zenodo) | Licence: TBD
 3. Run each script from the repository root, for example `Rscript cellline_DEG_vs_K1/Cellline_combined.R`
 4. Run `tissue_vs_CHO_gain_loss_reduced`, `cellline_DEG_vs_K1`, `promoter_activity_proActiv`, `PCA_MDS_UMAP`, `media_PyDESeq2` and `copy_number_CNV` first, then `enrichment_GO_KEGG`, `figure_scripts` and `secretory_SecRecon`, which use their outputs.
 
-The count matrix (`Count_raw_all.csv`) is generated from raw reads as described in the Methods. Seeds are fixed to 42 for UMAP and the promoter notebook.
+The count matrix (`Count_raw_all.csv`) is generated from raw reads as described in the Methods.
