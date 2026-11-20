@@ -1,8 +1,8 @@
 # Paths come from config.R in the repository root; run this script from the repository root.
 source("config.R")
-#######################################
+
 # PROACTIV PROMOTER-COUNT GENERATION
-#######################################
+
 #
 # PURPOSE
 #   Generate promoter-level counts from BAM files using proActiv and the
@@ -28,7 +28,7 @@ source("config.R")
 #   Update the GTF, BAM input, and RDS output paths for your environment.
 #   Ensure the output directory exists before running the script.
 #
-#######################################
+
 
 
 # Load required library
@@ -65,7 +65,7 @@ for (file in bam_files) {
   
   countfile <- countfile + 1
   
-  # Set condition as the sample name (just to provide a name in the condition param while running proactiv)
+  # Set condition as the sample name
   condition <- sample_name
   
   # Run the proActiv pipeline
