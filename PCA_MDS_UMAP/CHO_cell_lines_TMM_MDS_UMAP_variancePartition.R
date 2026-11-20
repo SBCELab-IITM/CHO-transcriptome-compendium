@@ -1,5 +1,4 @@
 # TMM normalisation, MDS, UMAP, heatmap and variancePartition for CHO samples
-# Final analysis script (SBCE lab, IIT Madras), from the lab's combined script (only the input/output file paths were changed).
 # Run from the repository root. Input files are read from DATA_DIR and results written to OUT_DIR (see config.R).
 # Inputs: count matrices and sample metadata (Supplementary Table 1), file names as used below.
 
