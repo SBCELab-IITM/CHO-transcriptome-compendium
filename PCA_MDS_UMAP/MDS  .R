@@ -35,7 +35,7 @@ str(pcs) #checking the string of pcs
 colnames(pcs) #checking the colnames of pcs
 
 
-# Corrected version with a missing comma added
+# ggplot
 p <- ggplot(pcs, aes(x = PC1, y = PC2)) + 
   geom_point(aes(colour = factor(Batch)), size = 2) + 
   labs(x = "Principal Component 1", 
